@@ -1,0 +1,1 @@
+import{r as n,b as s,B as a}from"./index-AEsN7gvZ.js";function o({elements:e}){const r=n.useMemo(()=>({display:"flex",alignItems:"center",justifyContent:"flex-start",gap:"1rem",flexWrap:"wrap"}),[]);return s.jsx("div",{style:r,children:e.map(t=>s.jsx(a,{text:t,size:"sm"},t))})}export{o as L};

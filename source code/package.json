@@ -1,7 +1,7 @@
 {
   "name": "react-frontend",
   "version": "0.1.0",
-  "homepage": "https://shawkyebrahim.me",
+  "homepage": "https://shawkyebrahim2514.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -37,7 +37,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -60,6 +62,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.4",
     "typescript": "5.6.3",
     "vite": "^6.3.5"
